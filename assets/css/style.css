@@ -25,7 +25,7 @@ h3 {
 }
 
 hr {
-  border-top: 1px. solid #3a3a3a;
+  border-top: 1px solid #3a3a3a;
   margin: 5px 0;
 }
 
@@ -74,6 +74,23 @@ nav {
 main {
   /* Make main element take up surplus space to push the footer down */
   flex: 1 0 auto;
+}
+
+#circle-cover-bg {
+  width: 90vw;
+  height: 90vw;
+  padding-bottom: 20px;
+  background: url("../images/reasons-image.webp") no-repeat top center / cover;
+  /* Makes a circle */
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#benefits-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Hero section */
