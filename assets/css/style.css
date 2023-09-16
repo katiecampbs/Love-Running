@@ -115,7 +115,7 @@ main {
 }
 
 #times h3 {
-  /* Overrise the heading colour set in general styles */
+  /* Override the heading colour set in general styles */
   color: #fafafa;
 }
 
@@ -142,6 +142,17 @@ main {
 #cover-text > h2,
 #cover-text > h3 {
   color: #ffffff;
+}
+
+/* Gallery page */
+
+#photos div {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
 }
 
 /* footer */
